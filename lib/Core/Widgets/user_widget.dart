@@ -26,9 +26,10 @@ class UserWidget extends StatelessWidget {
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           IconButton(
-              onPressed:
-                  onTappedRemove != null ? () => onTappedRemove!(index) : null,
-              icon: const Icon(Icons.delete)),
+            onPressed:
+                onTappedRemove != null ? () => onTappedRemove!(index) : null,
+            icon: const Icon(Icons.delete),
+          ),
         ],
       ),
     );
