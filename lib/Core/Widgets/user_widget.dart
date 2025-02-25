@@ -5,7 +5,7 @@ class UserWidget extends StatelessWidget {
   final int index;
   final Function(int)? onTappedRemove;
 
-  const UserWidget({
+  const UserWidget({                                                                                                                                                                        
     super.key,
     required this.name,
     required this.index,
